@@ -1,0 +1,3 @@
+/Users/lilithgames/Desktop/workspace/cpp/project/build/CMakeFiles/app.dir
+/Users/lilithgames/Desktop/workspace/cpp/project/build/CMakeFiles/edit_cache.dir
+/Users/lilithgames/Desktop/workspace/cpp/project/build/CMakeFiles/rebuild_cache.dir
