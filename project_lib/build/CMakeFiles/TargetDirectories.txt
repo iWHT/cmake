@@ -1,0 +1,3 @@
+/Users/lilithgames/Desktop/workspace/cmake/project_lib/build/CMakeFiles/prog.dir
+/Users/lilithgames/Desktop/workspace/cmake/project_lib/build/CMakeFiles/edit_cache.dir
+/Users/lilithgames/Desktop/workspace/cmake/project_lib/build/CMakeFiles/rebuild_cache.dir
