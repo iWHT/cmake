@@ -1,0 +1,27 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "Windows",
+            "generator": "Ninja Multi-Config",
+            "cmakeExecutable": "${sourceDir}/../tools/BuildTool/Cmake/bin/cmake.exe",
+            "binaryDir": "${sourceDir}/build",
+            "cacheVariables": {
+                "CMAKE_MAKE_PROGRAM": "${sourceDir}/../tools/BuildTool/ninja/ninja.exe",
+                "CMAKE_CONFIGURATION_TYPES": "Debug;RelWithDebInfo;Profile",
+                "Boost_NO_BOOST_CMAKE": "ON",
+                "Boost_NO_WARN_NEW_VERSIONS": "ON"
+            },
+            "environment": {
+                "PATH": "${sourceDir}/../tools/BuildTool/powershell-core;${sourceDir}/../tools/BuildTool/Cmake/bin/;$penv{PATH};${sourceDir}/../tools/BuildTool/llvm/bin/",
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "Debug",
+            "configurePreset": "Windows",
+            "configuration": "Debug"
+        }
+    ]
+}
